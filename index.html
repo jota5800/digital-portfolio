@@ -3,107 +3,194 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jonah Tatterson | Portfolio</title>
-  <meta name="description" content="Digital portfolio for Jonah Tatterson, senior Computer Science student at the University of Colorado Boulder." />
+  <title>Jonah Tatterson | Digital Portfolio</title>
+  <meta name="description" content="Digital portfolio for Jonah Tatterson, a senior computer science student at the University of Colorado Boulder." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <div class="logo">Jonah Tatterson</div>
+      <div class="nav-logo">
+        <a href="#home">Jonah Tatterson</a>
+      </div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
+        <li><a href="#home">About Me</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#interests">Interests</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#social">Social</a></li>
+        <li><a href="#projects">Projects & Experience</a></li>
+        <li><a href="#social">Social Media</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="about" class="hero">
+    <section id="home" class="hero">
       <div class="hero-text">
         <h1>Welcome</h1>
         <p>
-          My name is Jonah Tatterson, and I am a senior computer science student at the University of Colorado Boulder. I created this portfolio to have one place that shows more than just the bullet points on my resume. I wanted a space where I could present both my technical background and the interests that make me a more well-rounded person. While computer science is a big part of what I do, it is not the only thing that defines me. A lot of my interests sit at the intersection of problem solving, creativity, communication, and discipline, and I wanted this portfolio to reflect that.
+          My name is Jonah Tatterson, and I am a senior computer science student at the
+          University of Colorado Boulder. I created this portfolio as a way to present
+          more than just the bullet points on my resume. I wanted one place that shows
+          who I am, what I have worked on, and what I am interested in beyond classes
+          and technical experience alone. Computer science is a major part of my life,
+          but it is not the only thing that defines me. A lot of what I enjoy sits at the
+          intersection of technology, creativity, discipline, and communication, and I
+          wanted this site to reflect all of that in a way that feels personal but still
+          professional.
         </p>
         <p>
-          Throughout college, I have built a foundation in programming, software design, and technical problem solving through coursework, projects, and internship experience. My experience includes internships in data science and software development, where I worked with Python, database-related tasks, and prototype application development. At the same time, some of the things that matter most to me happen outside of the classroom. Rock climbing and running have taught me a lot about patience, consistency, and staying committed even when progress is slow. Creative work like video editing and content creation has helped me become better at storytelling, communication, and thinking about how to present ideas in a way that connects with other people.
+          Throughout college, I have built a strong foundation in programming, software
+          development, and technical problem solving through coursework, projects, and
+          internship experience. My academic background has helped me grow in areas like
+          coding, debugging, systems thinking, and software design, while my internship
+          work has shown me how those skills apply in real professional settings. At the
+          same time, some of the most important parts of who I am come from outside the
+          classroom. Rock climbing and running have taught me patience, consistency, and
+          how to stay committed even when progress is slow. Video editing and content
+          creation have helped me strengthen my creativity, communication, and ability to
+          present ideas in a way that connects with other people.
         </p>
         <p>
-          The purpose of this portfolio is to create a more personal and professional introduction for recruiters, employers, professors, classmates, and collaborators. Visitors to this site will find my resume, highlights of my academic and professional experience, some of my extracurricular interests, and links to platforms where I share more of my work and professional presence. My goal is for this portfolio to feel clear, approachable, and professional while giving visitors a strong sense of the kind of work I enjoy and the value I could bring to future opportunities.
+          This portfolio is meant for recruiters, employers, professors, classmates, and
+          anyone else who wants to learn more about me and my work. I want it to show
+          both my technical background and the broader interests that shape the way I
+          approach challenges. Visitors to this site will find my resume, highlights of
+          my academic and professional experience, extracurricular interests that matter
+          to me, and links to platforms where I share more of my work and professional
+          presence. My goal is for this portfolio to feel clear, approachable, and
+          professional while giving a better sense of my strengths, interests, and the
+          kind of work I enjoy doing.
         </p>
       </div>
+
       <div class="hero-images">
-        <img src="assets/profile-placeholder.jpg" alt="Professional portrait placeholder for Jonah Tatterson" />
-        <img src="assets/interest-placeholder.jpg" alt="Image placeholder representing Jonah's interests" />
+        <img src="assets/profile-placeholder.jpg" alt="Professional photo of Jonah Tatterson" />
+        <img src="assets/interest-placeholder.jpg" alt="Image representing Jonah Tatterson's interests" />
       </div>
     </section>
 
     <section id="resume" class="section">
       <h2>Resume</h2>
       <p>
-        This page includes my resume so visitors can quickly view my education, technical skills, internship experience, and independent projects in one place. The public version should leave out private details like my address and phone number.
+        My resume gives an overview of my education, technical skills, internship
+        experience, and independent projects. It highlights the work I have done as a
+        computer science student at CU Boulder as well as the experience I have gained
+        through internships and technical projects outside the classroom. I included it
+        here so visitors can quickly get a clear view of my background and qualifications
+        in one place.
       </p>
-      <div class="resume-box">
-        <p>
-          Put your cleaned resume PDF inside the project folder and name it <strong>Jonah_Tatterson_Resume.pdf</strong>.
-        </p>
-        <a class="button" href="Jonah_Tatterson_Resume.pdf" target="_blank">Open Resume PDF</a>
+
+      <div class="resume-buttons">
+        <a class="button" href="Jonah_Tatterson_Resume.pdf" target="_blank">View Resume</a>
+        <a class="button" href="Jonah_Tatterson_Resume.pdf" download>Download Resume</a>
+      </div>
+
+      <div class="resume-frame">
+        <iframe
+          src="Jonah_Tatterson_Resume.pdf"
+          title="Jonah Tatterson Resume"
+          loading="lazy">
+        </iframe>
       </div>
     </section>
 
     <section id="interests" class="section">
       <h2>Highlights of Interests / Extracurricular</h2>
+
       <div class="card-grid">
         <article class="card">
-          <img src="assets/climbing-placeholder.jpg" alt="Rock climbing placeholder image" />
+          <img src="assets/climbing-placeholder.jpg" alt="Jonah Tatterson rock climbing" />
           <h3>Rock Climbing</h3>
           <p>
-            Rock climbing is one of the most important activities in my life outside of school. It has taught me a lot about patience, consistency, and problem solving. Every climb is different, which means I constantly have to adjust, think ahead, and stay focused in the moment. It is also something that helps me stay balanced when life gets stressful, because it gives me a challenge that is both physical and mental. Climbing reflects an important part of who I am because it shows that I enjoy working through difficult problems and that I am willing to keep improving over time instead of expecting instant results.
+            Rock climbing is one of the most important activities in my life outside of
+            school. It has taught me patience, consistency, and problem solving in a way
+            that feels very real because every climb is different. Climbing forces me to
+            stay focused, make adjustments in the moment, and keep working through
+            challenges even when the solution is not obvious right away. It has also been
+            one of the best ways for me to stay balanced when school becomes stressful,
+            and it reflects a big part of who I am because I genuinely enjoy pushing
+            myself to improve over time.
           </p>
         </article>
 
         <article class="card">
-          <img src="assets/running-placeholder.jpg" alt="Running placeholder image" />
+          <img src="assets/running-placeholder.jpg" alt="Jonah Tatterson running" />
           <h3>Running and Fitness</h3>
           <p>
-            Running has become another major part of my routine and has shaped the way I think about progress. What I like most about running is that improvement usually comes from small, repeated effort over time. It helps me clear my head, stay disciplined, and build mental toughness. That mindset carries over into school, projects, and long-term goals because it reminds me that meaningful progress does not always happen quickly. Running is worth highlighting in my portfolio because it shows that I care about self-improvement, structure, and staying committed even when progress feels slow.
+            Running has become another major part of my routine and has shaped the way I
+            think about long-term progress. What I like most about it is that improvement
+            usually comes from small, repeated effort over time rather than instant
+            results. Running helps me stay disciplined, clear my head, and build mental
+            toughness, and those same lessons carry over into school, work, and other
+            long-term goals. It is something I value because it reminds me that
+            consistency matters, and that steady progress is usually what leads to real
+            improvement.
           </p>
         </article>
 
         <article class="card">
-          <img src="assets/content-placeholder.jpg" alt="Video editing and content creation placeholder image" />
+          <img src="assets/content-placeholder.jpg" alt="Video editing and content creation setup" />
           <h3>Video Editing and Content Creation</h3>
           <p>
-            Video editing and content creation show a more creative side of me that would not always be obvious from just looking at a computer science resume. I enjoy making both short-form and long-form content around topics I find interesting because it combines planning, scripting, editing, and audience awareness. This kind of work has helped me improve at communication and storytelling, and it has made me think more about how to present ideas clearly and in a way that connects with people. I think this belongs in my portfolio because it shows that I am interested in both technical work and creative problem solving.
+            Video editing and content creation show a more creative side of me that would
+            not always be obvious from my resume alone. I enjoy making both short-form
+            and long-form content around topics I find interesting because it combines
+            planning, scripting, editing, and thinking about how an audience will respond.
+            This has helped me strengthen my communication and storytelling skills while
+            also pushing me to think more carefully about how ideas are presented. I
+            value this part of my work because it reflects my interest in both technical
+            problem solving and creative expression.
           </p>
         </article>
       </div>
     </section>
 
     <section id="projects" class="section">
-      <h2>Highlights of Academic / Projects / Work</h2>
+      <h2>Highlights of Academic / Projects / Working</h2>
+
       <div class="card-grid">
         <article class="card">
           <h3>Computer Science Coursework and Projects</h3>
           <p>
-            As a computer science student, I have spent the past several years building a stronger understanding of programming, software structure, and problem solving. My coursework has included algorithms, data structures, computer systems, discrete mathematics, principles of programming languages, and principles of software development. These classes helped me strengthen both my technical foundation and the way I think through complex problems. In addition to coursework, I have also worked on independent projects that let me apply those skills more directly. Those experiences matter because they show steady growth over time and reflect the technical base I have been building throughout college.
+            My coursework in computer science has helped me build a strong foundation in
+            programming, software design, and technical problem solving. Through classes
+            like Algorithms, Data Structures, Computer Systems, Discrete Mathematics,
+            Principles of Programming Languages, and Principles of Software Development,
+            I have gained experience thinking carefully about how systems should be built
+            and how to approach more complex technical challenges. Along with coursework,
+            I have also worked on independent projects that let me apply those skills in
+            a more direct way. These experiences show the technical base I have been
+            building throughout college and the progress I have made over time.
           </p>
         </article>
 
         <article class="card">
           <h3>Accessibility and Web Design Work</h3>
           <p>
-            One academic area that has stood out to me is accessibility and web design work. This type of work changed the way I think about digital experiences because it is not just about making something look good, but making sure people can actually use it effectively. Working with accessibility and usability has shown me how thoughtful design choices can improve an experience for a much wider range of users. It has also helped me think more carefully about communication, organization, and how people interact with technology. This is an important highlight because it shows that I value both function and user experience, not just code for its own sake.
+            One of the academic areas that has stood out to me most has been accessibility
+            and web design work. This type of work changed the way I think about websites
+            because it is not just about making something look good, but making sure
+            people can actually use it effectively. Working with accessibility and
+            usability made me think more carefully about design decisions, organization,
+            and how users interact with digital spaces. It also helped me understand how
+            thoughtful design can improve the experience for a much wider range of people.
+            I think this is an important part of my portfolio because it reflects both
+            technical skills and a stronger awareness of user experience.
           </p>
         </article>
 
         <article class="card">
           <h3>Internship and Professional Experience</h3>
           <p>
-            My internship experience has been one of the most valuable parts of my professional development because it gave me the chance to apply what I learned in school in real working environments. I have experience in both data science and software development, including work with Python, database-related tasks, and prototype application development. These experiences helped me better understand teamwork, expectations in industry, and how technical skills are used in practical settings. They also made me more confident in my ability to contribute to meaningful work and communicate professionally.
+            My internship experience has been one of the most valuable parts of my
+            professional growth because it gave me the chance to apply what I learned in
+            school to real working environments. As a Data Science Intern at Sea to
+            Summit, I worked with Python, collaborated with teams, and supported
+            data-related work used for analysis and decision making. As a Software
+            Development Intern at Boulder IQ, I worked on prototype app development
+            involving Raspberry Pi, Arduino, and wireless electrical signal display. These
+            experiences helped me better understand teamwork, technical expectations in
+            industry, and how classroom knowledge translates into practical work.
           </p>
         </article>
       </div>
@@ -111,29 +198,46 @@
 
     <section id="social" class="section">
       <h2>Social Media</h2>
+
       <div class="social-list">
         <article class="social-item">
           <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/jonah-tatterson" target="_blank">
+            linkedin.com/in/jonah-tatterson
+          </a>
           <p>
-            LinkedIn is the main professional platform I use to present my academic background, internship experience, skills, and future goals. It supports my personal brand by giving visitors a more formal view of my professional identity and making it easier for recruiters, employers, and connections to understand my experience.
+            My LinkedIn supports my personal brand by giving visitors a more formal view
+            of my academic background, internship experience, skills, and professional
+            goals. It is the main platform I use to present myself in a professional way,
+            and visitors can find my education, experience, and career-focused profile
+            information there.
           </p>
-          <a href="https://www.linkedin.com/in/jonah-tatterson" target="_blank">Visit my LinkedIn</a>
         </article>
 
         <article class="social-item">
           <h3>GitHub</h3>
+          <a href="https://github.com/jota5800" target="_blank">
+            github.com/jota5800
+          </a>
           <p>
-            GitHub supports my personal brand by showing the technical side of my work in a more direct way. While a resume can summarize skills and projects, GitHub can give visitors a better sense of the code, structure, and work behind those experiences. Add your GitHub link here after you create or choose the account you want to share publicly.
+            My GitHub supports my personal brand by showing the technical side of my work
+            more directly than a resume can. It gives visitors a place to explore code,
+            projects, and technical development over time. It is especially useful for
+            recruiters, classmates, and collaborators who want to see examples of the
+            programming work I have done.
           </p>
-          <a href="#">Add your GitHub link here</a>
         </article>
 
         <article class="social-item">
-          <h3>YouTube or Another Public Platform</h3>
+          <h3>YouTube</h3>
+          <a href="#" target="_blank">Add YouTube Link Here</a>
           <p>
-            A third platform can show a different side of my personal brand beyond school and traditional technical work. A public platform like YouTube can highlight communication, creativity, and consistency through the content I create and share. Visitors would find work that reflects my interests and the way I explain or present ideas.
+            A public content platform adds another side of my personal brand by showing
+            creativity, communication, and consistency outside of school and traditional
+            technical work. It gives visitors a better sense of the kinds of topics I am
+            interested in, how I present ideas, and the creative projects I spend time
+            building outside the classroom.
           </p>
-          <a href="#">Add your public platform link here</a>
         </article>
       </div>
     </section>
